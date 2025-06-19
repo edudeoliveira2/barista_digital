@@ -1,0 +1,88 @@
+{
+  "machine": {
+    "name": "Decent DE1 Pro",
+    "features": {
+      "temperature_control": true,
+      "pressure_profiling": true,
+      "flow_profiling": true,
+      "real_time_adjustment": true
+    }
+  },
+  "equipment_details": {
+    "Kalita Wave 155": {
+      "type": "Dripper",
+      "features": {
+        "flat_bottom": true,
+        "three_holes": true,
+        "manual_pour": true
+      }
+    },
+    "Moka Bialetti 3 chávenas": {
+      "type": "Cafeteira Italiana",
+      "features": {
+        "material": "alumínio",
+        "capacity_ml": 130,
+        "cups": 3,
+        "octagonal_shape": true,
+        "stovetop": true
+      }
+    },
+    "Bialetti Brikka 1 chávena": {
+      "type": "Cafeteira Italiana (Brikka)",
+      "features": {
+        "material": "alumínio",
+        "capacity_ml": 60,
+        "cups": 1,
+        "pressure_valve": true,
+        "crema_production": true,
+        "stovetop": true
+      }
+    }
+  },
+  "grinder_details": {
+    "DF64V 2a geração": {
+      "type": "Single Dose",
+      "burr_size_mm": 64,
+      "burr_type": "Flat Burrs",
+      "burr_coating": "DLC-coated",
+      "variable_rpm": true,
+      "min_rpm": 800,
+      "max_rpm": 1800,
+      "stepless_adjustment": true
+    },
+    "Baratza Sette 270Wi": {
+      "type": "Dedicated Espresso",
+      "burr_size_mm": 40,
+      "burr_type": "Conical Burrs",
+      "dosing_system": "Weight-based (Acaia scale)",
+      "adjustment_steps": "30 macro, 9 micro"
+    },
+    "Kingrinder K4": {
+      "type": "Manual",
+      "burr_type": "Conical Burrs",
+      "adjustment": "External",
+      "clicks_per_rotation": 60,
+      "optimized_for": "Espresso"
+    }
+  },
+  "burrs": {},
+  "methods": [
+    "Espresso",
+    "Filtrado",
+    "Cafeteira Italiana (Moka)"
+  ],
+  "equipment": [
+    "Decent DE1 Pro (espresso)",
+    "Kalita Wave 155 (filtro)",
+    "Moka Bialetti 3 chávenas",
+    "Bialetti Brikka 1 chávena"
+  ],
+  "grinders": [
+    "DF64V 2a geração",
+    "Baratza Sette 270Wi",
+    "Kingrinder K4"
+  ],
+  "burrs_installed": {
+    "DF64V 2a geração": "SSP Lab Sweet Cast V3 Red Speed 64mm Flat Burrs"
+  }
+}
